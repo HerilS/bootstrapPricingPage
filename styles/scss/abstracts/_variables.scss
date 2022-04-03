@@ -1,0 +1,42 @@
+// COLORS
+$primary: #2c4bff;
+$success: #5debdf;
+$danger: #db1a2a;
+$warning: #ff6c60;
+
+// TYPOGRAPHY
+$font-family-base: "Rubik", sans-serif;
+
+// SPACING
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 3.5,
+  7: $spacer * 4,
+  8: $spacer * 5,
+  9: $spacer * 6,
+  10: $spacer * 7,
+);
+
+// ACCORDION
+$accordion-bg: transparent;
+$accordion-border-width: 0px;
+$accordion-button-active-bg: transparent;
+$accordion-button-active-color: black;
+$accordion-button-focus-box-shadow: none;
+$accordion-padding-x: 0px;
+$accordion-padding-y: 1.5rem;
+$accordion-icon-width: 0.7rem;
+$accordion-icon-color: black;
+
+$accordion-button-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#{$accordion-icon-color}"><path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/></svg>');
+
+$accordion-button-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#{$accordion-icon-color}"><path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/></svg>');
+
+// NEGATIVE MARGINS
+$enable-negative-margins: true;

@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "scss": "sass --no-source-map --watch styles/scss:styles/css"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.49.9"
+  }
+}

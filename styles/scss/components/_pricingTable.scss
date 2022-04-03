@@ -1,0 +1,21 @@
+.pricing-table-container {
+	z-index: 2;
+	--pricing-padding-y: 3.5rem;
+	--pricing-padding-x: 4rem;
+	--pricing-border: 1px solid #{$border-color};
+}
+
+.pricing-heading {
+	padding: var(--pricing-padding-y) var(--pricing-padding-x);
+	min-height: 27rem;
+	border-bottom: var(--pricing-border);
+}
+
+.pricing-cell {
+	--pricing-padding-y: 0;
+	padding: var(--pricing-padding-y) var(--pricing-padding-x);
+	min-height: 5rem;
+	border-bottom: var(--pricing-border);
+	display: flex;
+	align-items: center;
+}
